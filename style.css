@@ -122,7 +122,7 @@ blog1
 ************/
 .blog1 {
     padding: var(--padding);
-    background: var(--lightgray);
+    background: var(--white);
 }
 .blog1 .container {
     display: flex;
