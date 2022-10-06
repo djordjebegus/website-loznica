@@ -118,6 +118,26 @@ blog
     flex: 0 0 47%;
 }
 /************
+blog1
+************/
+.blog1 {
+    padding: var(--padding);
+    background: var(--lightgray);
+}
+.blog1 .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blog1 img {
+    width: 100%;
+    border-radius: 50px 50px 50px 0;
+    box-shadow: 4px 4px var(--blue);
+}
+.blog1 .col {
+    flex: 0 0 47%;
+}
+/************
 footer
 ************/
 footer {
@@ -161,6 +181,10 @@ footer hr {
         margin-bottom: 40px;
     }
     .blog .col {
+        flex: 0 0 100%;
+        margin-bottom: 40px;
+    }
+    .blog1 .col {
         flex: 0 0 100%;
         margin-bottom: 40px;
     }
